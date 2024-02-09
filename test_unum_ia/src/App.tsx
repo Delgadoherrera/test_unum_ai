@@ -33,7 +33,7 @@ const App: React.FC = () => {
       }
     });
 
-    fetch("http://localhost:8087/ia/api/assets/answer", {
+    fetch("https://devingfor.art:8087/ia/api/assets/answer", {
       method: "POST",
       body: formData,
     })
